@@ -38,7 +38,7 @@ if uploaded_model:
     except Exception as e:
         st.error(f"Error loading model: {e}")
 
-streamlit run app.py
+
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
